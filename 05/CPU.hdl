@@ -40,7 +40,7 @@ CHIP CPU {
 
     PARTS:
     // Put your code here:
-    Not(in=instruction[15],out=ni);
+    	Not(in=instruction[15],out=ni);
 	Mux16(a=outtM,b=instruction,sel=ni,out=i);
 
 	Or(a=ni,b=instruction[5],out=intoA);
