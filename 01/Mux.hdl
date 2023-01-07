@@ -20,4 +20,4 @@ CHIP Mux {
 	And(a=b,b=sel,out=d);
 	Or(a=c,b=d,out=out);
 }
-}
+
